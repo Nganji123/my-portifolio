@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jesse - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="logo-text">Jesse</span>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text">Jesse</span>
+            </h1>
+            <p class="hero-subtitle">Software Developer & Problem Solver</p>
+            <p class="hero-description">
+              Passionate about creating efficient solutions and building amazing
+              digital experiences with clean, scalable code.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="image-placeholder">
+              <i class="fas fa-user"></i>
+              <img src="pass.jpg" />
+            </div>
+            <!-- Replace with: <img src="your-photo.jpg" alt="Jesse" class="profile-photo"> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Get to know me better</p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a dedicated software developer with a passion for creating
+              innovative solutions and solving complex problems. My journey in
+              programming started with a curiosity about how things work, and
+              has evolved into a deep expertise across multiple technologies.
+            </p>
+            <p>
+              From building robust applications in Java and C to crafting
+              beautiful, responsive web interfaces with HTML and CSS, I enjoy
+              the entire development process. My experience with version control
+              through GitHub and understanding of computer networking principles
+              allows me to work effectively in collaborative environments and
+              build scalable solutions.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <h3>50+</h3>
+                <p>Projects Completed</p>
+              </div>
+              <div class="stat">
+                <h3>2+</h3>
+                <p>Years Experience</p>
+              </div>
+              <div class="stat">
+                <h3>6</h3>
+                <p>Technologies Mastered</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My Skills</h2>
+          <p class="section-subtitle">Technologies I work with</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon java">
+              <i class="fab fa-java"></i>
+            </div>
+            <h3>Java</h3>
+            <p>
+              Object-oriented programming, Spring Framework, data structures,
+              and enterprise applications
+            </p>
+            <div class="skill-level">
+              <div class="skill-bar" data-level="90"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon web">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h3>HTML & CSS</h3>
+            <p>
+              Responsive design, modern CSS, animations, and cross-browser
+              compatibility
+            </p>
+            <div class="skill-level">
+              <div class="skill-bar" data-level="95"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon problem">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h3>Problem Solving</h3>
+            <p>
+              Analytical thinking, algorithm design, debugging, and optimization
+              strategies
+            </p>
+            <div class="skill-level">
+              <div class="skill-bar" data-level="88"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon github">
+              <i class="fab fa-github"></i>
+            </div>
+            <h3>GitHub</h3>
+            <p>
+              Version control, collaborative development, CI/CD, and project
+              management
+            </p>
+            <div class="skill-level">
+              <div class="skill-bar" data-level="85"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon c">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>C Programming</h3>
+            <p>
+              System programming, memory management, pointers, and performance
+              optimization
+            </p>
+            <div class="skill-level">
+              <div class="skill-bar" data-level="80"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon network">
+              <i class="fas fa-network-wired"></i>
+            </div>
+            <h3>Computer Networking</h3>
+            <p>
+              TCP/IP, network protocols, security, troubleshooting, and system
+              administration
+            </p>
+            <div class="skill-level">
+              <div class="skill-bar" data-level="75"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Some of my recent work</p>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                  <a href="#" class="project-link"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>E-Commerce Platform</h3>
+              <p>
+                A full-stack e-commerce solution built with modern web
+                technologies, featuring user authentication, payment processing,
+                and admin dashboard.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">HTML/CSS</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                  <a href="#" class="project-link"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Network Monitor</h3>
+              <p>
+                A C-based network monitoring tool that tracks bandwidth usage,
+                analyzes traffic patterns, and provides real-time network
+                statistics.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">C</span>
+                <span class="tech-tag">Networking</span>
+                <span class="tech-tag">Linux</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                  <a href="#" class="project-link"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Algorithm Visualizer</h3>
+              <p>
+                Interactive web application that visualizes sorting and
+                searching algorithms, helping students understand complex data
+                structures.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML/CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Algorithms</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Let's work together</p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <p>jesse@example.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Phone</h3>
+                <p>+250 790 584 813</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Location</h3>
+                <p>Your City, Country</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form>
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required />
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Subject" required />
+              </div>
+              <div class="form-group">
+                <textarea
+                  placeholder="Your Message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-text">
+            <p>&copy; 2024 Jesse. All rights reserved.</p>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      const hamburger = document.getElementById("hamburger");
+      const navMenu = document.getElementById("nav-menu");
+
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+      });
+
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+            // Close mobile menu if open
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+          }
+        });
+      });
+
+      // Animate skill bars on scroll
+      const observerOptions = {
+        threshold: 0.5,
+        rootMargin: "0px 0px -100px 0px",
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const skillBars = entry.target.querySelectorAll(".skill-bar");
+            skillBars.forEach((bar) => {
+              const level = bar.getAttribute("data-level");
+              bar.style.width = level + "%";
+            });
+          }
+        });
+      }, observerOptions);
+
+      const skillsSection = document.querySelector(".skills");
+      if (skillsSection) {
+        observer.observe(skillsSection);
+      }
+    </script>
+  </body>
+</html>
